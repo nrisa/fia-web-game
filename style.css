@@ -1,0 +1,336 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body, html {
+	font-family: arial;
+}
+
+.satu {
+	background-image: url(assets/main-bg.jpg);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.dua {
+	background-image: url(assets/the-games-bg.jpg);
+	color: white;
+	padding-top: 160px;
+	padding-left: 80px;
+}
+
+.tiga {
+	background-image: url(assets/features.jpg);
+	background-position: top !important;
+	background-size: 100% !important;
+}
+
+.empat {
+	background-image: url(assets/requirements.png);
+	background-position: bottom !important;
+}
+
+.lima {
+	background-image: url(assets/top-score-bg.png);
+}
+
+.set-bg {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: calc(100vh + 20px);
+	background-size: 100%;
+	background-position: center;
+}
+
+nav, .nav, nav div.nav ul, nav ul {
+	display: flex;
+	align-items: center;
+}
+
+ul {
+	list-style: none;
+}
+
+/* navbar */
+
+nav {
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 80px;
+	justify-content: space-between;
+	padding: 0 80px;
+	color: white;
+	background-color: rgba(0, 0, 0, 40%);
+	position: absolute;
+}
+
+.nav {
+	width: 50%;
+	justify-content: space-between;
+}
+
+nav div.nav ul {
+	width: 70%;
+	justify-content: space-evenly;
+}
+
+nav ul {
+	width: 10%;
+	justify-content: space-between;
+}
+
+/* akhir navbar */
+
+header {
+	height: 200px;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header h1 {
+	font-size: 74px;
+}
+
+button {
+	width: 200px;
+	height: 40px;
+	border-radius: 4px;
+	background-color: #FAB33F;
+	border: none;
+	font-weight: bold;
+}
+
+.scroll {
+	position: absolute;
+	bottom: 35px;
+	color: white;
+}
+
+div.dua span {
+	font-size: 70px;
+}
+
+div.dua p {
+	font-size: 28px;
+}
+
+.crousel {
+	width: 650px;
+	height: 380px;
+	position: absolute;
+	right: 170px;
+	top: 200px;
+	background-image: url(assets/rockpaperstrategy-1600.jpg);
+	background-size: 110%;
+	background-position: center;
+}
+
+div.crousel ul {
+	display: flex;
+	width: 50%;
+	list-style: none;
+	justify-content: space-evenly;
+	position: absolute;
+	bottom: 10px;
+	left: 25%;
+}
+
+div.crousel ul li {
+	width: 13px;
+	height: 13px;
+	border-radius: 100%;
+	border: 2px solid white;
+}
+
+div.crousel ul li:first-child {
+	background-color: white;
+}
+
+.switch {
+	position: absolute;
+}
+
+.sl {
+	left: -30px;
+	top: 48%;
+}
+
+.sr {
+	right: -30px;
+	top: 48%;
+}
+
+div.tiga content {
+	width: 40%;
+	position: absolute;
+	right: 80px;
+	top: 140px;
+}
+
+div.tiga content span {
+	font-size: 70px;
+	color: white;
+}
+
+div.tiga content p {
+	font-size: 28px;
+	color: white;
+}
+
+.circle {	
+	width: 13px;
+	height: 13px;
+	border-radius: 100%;
+	border: 2px solid white;
+	margin-right: 30px;
+	display: block;
+}
+
+.circle-on {
+	background-color: white;
+}
+
+.features {
+	font-size: 22px !important;
+	color: #FAB33F !important;
+}
+
+.word {
+	font-size: 16px !important;
+	color: white;
+}
+
+.line {
+	display: block;
+	width: 2px;
+	height: 107px;
+	position: absolute;
+	background-color: white;
+	top: -8px;
+	left: 5px;
+}
+
+td {
+	position: relative;
+}
+
+.shadow {
+	width: 100%;
+	height: 100%;
+	background-image: url(assets/top-score-bg-3.png);
+	background-position: bottom !important;
+	color: white;
+	padding-top: 120px;
+	padding-left: 80px;
+}
+
+.req {
+	font-size: 48px;
+}
+
+.info {
+	font-size: 15px;
+	color: white;
+	position: absolute;
+	left: 31%;
+	top: 128px;
+}
+
+.ts {
+	width: 100%;
+	height: 100%;
+	background-image: url('assets/top-score-bg(2).png');
+	color: white;
+	padding-top: 250px;
+	padding-left: 80px;
+}
+
+.t-ts {
+	font-size: 48px;
+}
+
+.text-ts {
+	font-size: 14px;
+}
+
+.board {
+	width: 40%;
+	position: absolute;
+	top: 80px;
+	right: 0;
+	transform: scale(0.9);
+}
+
+.card {
+	width: 400px;
+	background-color: #1D1E20;
+	border-radius: 12px;
+	position: relative;
+	padding: 20px;
+	margin-bottom: 30px;
+}
+
+.frame {
+	position: relative;
+	margin-right: 30px;
+}
+
+.profil {
+	width: 65px;
+	height: 65px;
+	border-radius: 100%;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	z-index: 2;
+}
+
+.profil-af {
+	width: 65px;
+	height: 65px;
+	border-radius: 100%;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	z-index: 1;
+	transform: translate(10px);
+	top: 2px;
+	left: 2px;
+}
+
+.nm {
+	color: #FAB33F;
+}
+
+.status {
+	font-size: 13px;
+	color: darkgray;
+}
+
+section {
+	display: flex;
+	align-items: center;
+}
+
+.mrk {
+	position: absolute;
+	top: 33px;
+	right: 20px;
+}
+
+.c2 {
+	transform: translateX(-120px);
+}
