@@ -36,6 +36,26 @@ body, html {
 
 .lima {
 	background-image: url(assets/top-score-bg.png);
+	box-shadow: -1px 3px 29px 36px rgba(0,0,0,0.76) inset;
+-webkit-box-shadow: -1px 3px 29px 36px rgba(0,0,0,0.76) inset;
+-moz-box-shadow: -1px 3px 29px 36px rgba(0,0,0,0.76) inset;
+}
+
+.enam {
+	background-image: url(assets/newsletter.png);
+	height: calc(100vh + 100px) !important;
+}
+
+.skull {
+	position: absolute;
+	width: 413px;
+	height: 656px;
+	transform: scale(.8);
+	top: 0;
+	left: 120px;
+
+	background: url(assets/skull.png);
+	box-shadow: inset 10px 5px 50px 40px #080A0B;
 }
 
 .set-bg {
@@ -333,4 +353,76 @@ section {
 
 .c2 {
 	transform: translateX(-120px);
+}
+
+.final {
+	position: absolute;
+	right: 0;
+	top: 100px;
+	color: white;
+	width: 60%;
+}
+
+.tf {
+	font-size: 26px;
+}
+
+.ex {
+	font-size: 62px;
+}
+
+.ad {
+	display: flex;
+	align-items: center;
+}
+
+.flabel {
+	display: inline-block;
+	padding: 8px 140px 8px 30px;
+	background-color: #1D1E20;
+	margin-right: 20px;
+}
+
+.cil {
+	color: gray;
+	font-size: 13px;
+}
+
+.email {
+	color: #FAB33F;
+	font-size: 15px;
+}
+
+.ftr {
+	list-style: none;
+	display: flex;
+	justify-content: space-evenly;
+	width: 80%;
+	color: white;
+	position: absolute;
+	right: 0;
+	bottom: 120px;
+}
+
+ul.ftr li {
+	font-size: 13px;
+}
+
+.cr {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	color: white;
+	position: absolute;
+	bottom: 60px;
+	padding: 0 80px;
+}
+
+ul.cr li {
+	font-size: 13px;
+}
+
+ul.cr li:first-child {
+	color: gray;
 }
